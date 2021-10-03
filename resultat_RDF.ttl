@@ -1,0 +1,256 @@
+@prefix scr:   <https://segmonto.unige.ch/example/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix crmdig: <http://www.ics.forth.gr/isl/CRMext/CRMdig.rdfs/> .
+@prefix vc:    <https://visualcontagions.unige.ch/resources/> .
+@prefix ulan:  <http://vocab.getty.edu/ulan/> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix aat:   <http://vocab.getty.edu/aat/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml:   <http://www.w3.org/XML/1998/namespace> .
+@prefix cod:   <http://codicologia.irht.cnrs.fr/> .
+@prefix gnd:   <https://d-nb.info/> .
+@prefix wikidata: <https://www.wikidata.org/wiki/> .
+@prefix crm:   <http://www.cidoc-crm.org/cidoc-crm/> .
+
+<http://www.cidoc-crm.org/cidoc-crm/page/eSc_dummypage_/r_1_1/tl_2/2725291>
+        a                               crm:E33_Linguistic_Object ;
+        crm:P190_has_symbolic_contents  "ſon puis que ce ſont des feli¬ſçeu l'heureux ſuccés du" .
+
+<http://www.cidoc-crm.org/cidoc-crm/page/eSc_dummypage_/r_1_1/tl_15/2674286>
+        a                               crm:E33_Linguistic_Object ;
+        crm:P190_has_symbolic_contents  "quoit auparauant quelques" .
+
+<https://segmonto.unige.ch/example/page/eSc_dummypage_/r_1_1/tl_16>
+        a                               crm:E25_Human-Made_Feature , scr:line ;
+        crm:P128_carries                <http://www.cidoc-crm.org/cidoc-crm/page/eSc_dummypage_/r_1_1/tl_16/2689226> ;
+        crm:P190_has_symbolic_contents  "deffaux en la conduite de" ;
+        crm:P2_has_type                 cod:term-1735 .
+
+<http://www.cidoc-crm.org/cidoc-crm/page/eSc_dummypage_/r_1_1/tl_11/2698286>
+        a                               crm:E33_Linguistic_Object ;
+        crm:P190_has_symbolic_contents  "vous pour le ſeruir en vne" .
+
+<http://www.cidoc-crm.org/cidoc-crm/page/eSc_dummypage_/r_1_1/tl_7/2697222>
+        a                               crm:E33_Linguistic_Object ;
+        crm:P190_has_symbolic_contents  "mencemens que vous auez" .
+
+<https://segmonto.unige.ch/example/page/eSc_dummypage_/r_1_1/tl_10>
+        a                               crm:E25_Human-Made_Feature , scr:line ;
+        crm:P128_carries                <http://www.cidoc-crm.org/cidoc-crm/page/eSc_dummypage_/r_1_1/tl_10/2701290> ;
+        crm:P190_has_symbolic_contents  "certes le choix qu'il a fait de" ;
+        crm:P2_has_type                 cod:term-1735 .
+
+<http://www.cidoc-crm.org/cidoc-crm/page/eSc_dummypage_/r_1_1/tl_18/2689282>
+        a                               crm:E33_Linguistic_Object ;
+        crm:P190_has_symbolic_contents  "que cette derniere action a" .
+
+<https://visualcontagions.unige.ch/resources/page/eSc_dummypage_/2>
+        a                   crm:E42_Identifier ;
+        crm:P1i_identifies  <https://visualcontagions.unige.ch/resources/page/eSc_dummypage_> .
+
+<https://segmonto.unige.ch/example/page/eSc_dummypage_/r_1_1/tl_4>
+        a                               crm:E25_Human-Made_Feature , scr:line ;
+        crm:P128_carries                <http://www.cidoc-crm.org/cidoc-crm/page/eSc_dummypage_/r_1_1/tl_4/2701315> ;
+        crm:P190_has_symbolic_contents  "ſçeu l'heureux ſuccés du" ;
+        crm:P2_has_type                 cod:term-1735 .
+
+aat:300194222  a  crm:E55_Type .
+
+<http://www.cidoc-crm.org/cidoc-crm/page/eSc_dummypage_/r_1_1/tl_8/2697286>
+        a                               crm:E33_Linguistic_Object ;
+        crm:P190_has_symbolic_contents  "donnez à tout ce que le Roy" .
+
+<https://segmonto.unige.ch/example/page/eSc_dummypage_/r_1_1/tl_15>
+        a                               crm:E25_Human-Made_Feature , scr:line ;
+        crm:P128_carries                <http://www.cidoc-crm.org/cidoc-crm/page/eSc_dummypage_/r_1_1/tl_15/2674286> ;
+        crm:P190_has_symbolic_contents  "quoit auparauant quelques" ;
+        crm:P2_has_type                 cod:term-1735 .
+
+<https://segmonto.unige.ch/example/page/eSc_dummypage_/r_1_1/tl_9>
+        a                               crm:E25_Human-Made_Feature , scr:line ;
+        crm:P128_carries                <http://www.cidoc-crm.org/cidoc-crm/page/eSc_dummypage_/r_1_1/tl_9/2698278> ;
+        crm:P190_has_symbolic_contents  "voudra entreprendre: Et" ;
+        crm:P2_has_type                 cod:term-1735 .
+
+<https://visualcontagions.unige.ch/resources/page/eSc_dummypage_>
+        a                               crm:E22_Human-Made_Object ;
+        crm:P190_has_symbolic_contents  "ſon puis que ce ſont des feli¬ſçeu l'heureux ſuccés ducités publiques. Nous auõsſçeu l'heureux ſuccés duvoyage que vous auez faiten Bearn, & les grands com¬mencemens que vous auezdonnez à tout ce que le Royvoudra entreprendre: Etcertes le choix qu'il a fait devous pour le ſeruir en vneoccaſion de telle importan¬ce a eſté ſi generalement ap¬prouué, que ſi on remar¬quoit auparauant quelquesdeffaux en la conduite denos affaires, il faut auoüerque cette derniere action aiuſtifié toutes les autres, &LETTRES DV SIEVR2" ;
+        crm:P1_is_identified_by         <https://visualcontagions.unige.ch/resources/page/eSc_dummypage_/identifier> ;
+        crm:P2_has_type                 aat:300194222 ;
+        crm:P56_bears_feature           <https://segmonto.unige.ch/example/page/eSc_dummypage_/eSc_textblock_e2c96976> , <https://segmonto.unige.ch/example/page/eSc_dummypage_/eSc_textblock_9a1ebf95> , <https://segmonto.unige.ch/example/page/eSc_dummypage_/r_1_1> .
+
+<https://segmonto.unige.ch/example/page/eSc_dummypage_/r_1_1/tl_3>
+        a                               crm:E25_Human-Made_Feature , scr:line ;
+        crm:P128_carries                <http://www.cidoc-crm.org/cidoc-crm/page/eSc_dummypage_/r_1_1/tl_3/2690295> ;
+        crm:P190_has_symbolic_contents  "cités publiques. Nous auõs" ;
+        crm:P2_has_type                 cod:term-1735 .
+
+<https://segmonto.unige.ch/example/vocab/zone>
+        a       crm:E55_Type .
+
+<https://segmonto.unige.ch/example/page/eSc_dummypage_/r_1_1/tl_14>
+        a                               crm:E25_Human-Made_Feature , scr:line ;
+        crm:P128_carries                <http://www.cidoc-crm.org/cidoc-crm/page/eSc_dummypage_/r_1_1/tl_14/2705290> ;
+        crm:P190_has_symbolic_contents  "prouué, que ſi on remar¬" ;
+        crm:P2_has_type                 cod:term-1735 .
+
+<https://segmonto.unige.ch/example/page/eSc_dummypage_/r_1_1/tl_8>
+        a                               crm:E25_Human-Made_Feature , scr:line ;
+        crm:P128_carries                <http://www.cidoc-crm.org/cidoc-crm/page/eSc_dummypage_/r_1_1/tl_8/2697286> ;
+        crm:P190_has_symbolic_contents  "donnez à tout ce que le Roy" ;
+        crm:P2_has_type                 cod:term-1735 .
+
+<https://segmonto.unige.ch/example/page/eSc_dummypage_/r_1_1/tl_2>
+        a                               crm:E25_Human-Made_Feature , scr:line ;
+        crm:P128_carries                <http://www.cidoc-crm.org/cidoc-crm/page/eSc_dummypage_/r_1_1/tl_2/2725291> ;
+        crm:P190_has_symbolic_contents  "ſçeu l'heureux ſuccés du" , "ſon puis que ce ſont des feli¬" ;
+        crm:P2_has_type                 cod:term-1735 .
+
+<https://segmonto.unige.ch/example/page/eSc_dummypage_/r_1_1>
+        a                               scr:zone , crm:E25_Human-Made_Feature ;
+        crm:P190_has_symbolic_contents  "ſon puis que ce ſont des feli¬ſçeu l'heureux ſuccés ducités publiques. Nous auõsſçeu l'heureux ſuccés duvoyage que vous auez faiten Bearn, & les grands com¬mencemens que vous auezdonnez à tout ce que le Royvoudra entreprendre: Etcertes le choix qu'il a fait devous pour le ſeruir en vneoccaſion de telle importan¬ce a eſté ſi generalement ap¬prouué, que ſi on remar¬quoit auparauant quelquesdeffaux en la conduite denos affaires, il faut auoüerque cette derniere action aiuſtifié toutes les autres, &" ;
+        crm:P2_has_type                 <https://segmonto.unige.ch/example/vocab/zone> ;
+        crm:P46_is_composed_of          <https://segmonto.unige.ch/example/page/eSc_dummypage_/r_1_1/tl_2> , <https://segmonto.unige.ch/example/page/eSc_dummypage_/r_1_1/tl_14> , <https://segmonto.unige.ch/example/page/eSc_dummypage_/r_1_1/tl_7> , <https://segmonto.unige.ch/example/page/eSc_dummypage_/r_1_1/tl_10> , <https://segmonto.unige.ch/example/page/eSc_dummypage_/r_1_1/tl_17> , <https://segmonto.unige.ch/example/page/eSc_dummypage_/r_1_1/tl_9> , <https://segmonto.unige.ch/example/page/eSc_dummypage_/r_1_1/eSc_line_716cb609> , <https://segmonto.unige.ch/example/page/eSc_dummypage_/r_1_1/tl_5> , <https://segmonto.unige.ch/example/page/eSc_dummypage_/r_1_1/tl_6> , <https://segmonto.unige.ch/example/page/eSc_dummypage_/r_1_1/tl_18> , <https://segmonto.unige.ch/example/page/eSc_dummypage_/r_1_1/tl_15> , <https://segmonto.unige.ch/example/page/eSc_dummypage_/r_1_1/tl_8> , <https://segmonto.unige.ch/example/page/eSc_dummypage_/r_1_1/tl_4> , <https://segmonto.unige.ch/example/page/eSc_dummypage_/r_1_1/tl_3> , <https://segmonto.unige.ch/example/page/eSc_dummypage_/r_1_1/tl_16> , <https://segmonto.unige.ch/example/page/eSc_dummypage_/r_1_1/tl_11> , <https://segmonto.unige.ch/example/page/eSc_dummypage_/r_1_1/tl_13> , <https://segmonto.unige.ch/example/page/eSc_dummypage_/r_1_1/tl_12> , <https://segmonto.unige.ch/example/page/eSc_dummypage_/r_1_1/tl_1> , <https://segmonto.unige.ch/example/page/eSc_dummypage_/r_1_1/tl_19> .
+
+<http://www.cidoc-crm.org/cidoc-crm/page/eSc_dummypage_/r_1_1/tl_3/2690295>
+        a                               crm:E33_Linguistic_Object ;
+        crm:P190_has_symbolic_contents  "cités publiques. Nous auõs" .
+
+<http://www.cidoc-crm.org/cidoc-crm/page/eSc_dummypage_/r_1_1/tl_6/2709290>
+        a                               crm:E33_Linguistic_Object ;
+        crm:P190_has_symbolic_contents  "en Bearn, & les grands com¬" .
+
+<https://segmonto.unige.ch/example/page/eSc_dummypage_/r_1_1/eSc_line_716cb609>
+        a                               crm:E25_Human-Made_Feature , scr:line ;
+        crm:P128_carries                <http://www.cidoc-crm.org/cidoc-crm/page/eSc_dummypage_/r_1_1/eSc_line_716cb609/154165> ;
+        crm:P190_has_symbolic_contents  "2" ;
+        crm:P2_has_type                 cod:term-1735 .
+
+<https://segmonto.unige.ch/example/page/eSc_dummypage_/r_1_1/tl_19>
+        a                               crm:E25_Human-Made_Feature , scr:line ;
+        crm:P128_carries                <http://www.cidoc-crm.org/cidoc-crm/page/eSc_dummypage_/r_1_1/tl_19/2690242> ;
+        crm:P190_has_symbolic_contents  "iuſtifié toutes les autres, &" ;
+        crm:P2_has_type                 cod:term-1735 .
+
+<http://www.cidoc-crm.org/cidoc-crm/page/eSc_dummypage_/r_1_1/tl_19/2690242>
+        a                               crm:E33_Linguistic_Object ;
+        crm:P190_has_symbolic_contents  "iuſtifié toutes les autres, &" .
+
+<http://www.cidoc-crm.org/cidoc-crm/page/eSc_dummypage_/r_1_1/tl_5/2714287>
+        a                               crm:E33_Linguistic_Object ;
+        crm:P190_has_symbolic_contents  "voyage que vous auez fait" .
+
+<http://www.cidoc-crm.org/cidoc-crm/page/eSc_dummypage_/r_1_1/tl_17/2686262>
+        a                               crm:E33_Linguistic_Object ;
+        crm:P190_has_symbolic_contents  "nos affaires, il faut auoüer" .
+
+<https://segmonto.unige.ch/example/page/eSc_dummypage_/r_1_1/tl_13>
+        a                               crm:E25_Human-Made_Feature , scr:line ;
+        crm:P128_carries                <http://www.cidoc-crm.org/cidoc-crm/page/eSc_dummypage_/r_1_1/tl_13/2686302> ;
+        crm:P190_has_symbolic_contents  "ce a eſté ſi generalement ap¬" ;
+        crm:P2_has_type                 cod:term-1735 .
+
+<https://segmonto.unige.ch/example/page/eSc_dummypage_/r_1_1/tl_7>
+        a                               crm:E25_Human-Made_Feature , scr:line ;
+        crm:P128_carries                <http://www.cidoc-crm.org/cidoc-crm/page/eSc_dummypage_/r_1_1/tl_7/2697222> ;
+        crm:P190_has_symbolic_contents  "mencemens que vous auez" ;
+        crm:P2_has_type                 cod:term-1735 .
+
+<https://visualcontagions.unige.ch/resources/page/eSc_dummypage_/identifier>
+        a           crm:E42_Identifier ;
+        rdfs:label  "eSc_dummypage_" .
+
+<https://segmonto.unige.ch/example/page/eSc_dummypage_/eSc_textblock_9a1ebf95>
+        a                               crm:E25_Human-Made_Feature , scr:zone ;
+        crm:P190_has_symbolic_contents  "2" ;
+        crm:P2_has_type                 <https://segmonto.unige.ch/example/vocab/PageNumber> ;
+        crm:P67_refers_to               <https://visualcontagions.unige.ch/resources/page/eSc_dummypage_/2> .
+
+<https://segmonto.unige.ch/example/vocab/PageNumber>
+        a       crm:E55_Type .
+
+<https://segmonto.unige.ch/example/page/eSc_dummypage_/r_1_1/tl_1>
+        a                               crm:E25_Human-Made_Feature , scr:line ;
+        crm:P128_carries                <http://www.cidoc-crm.org/cidoc-crm/page/eSc_dummypage_/r_1_1/tl_1/2282234> ;
+        crm:P190_has_symbolic_contents  "LETTRES DV SIEVR" ;
+        crm:P2_has_type                 cod:term-1735 .
+
+<http://www.cidoc-crm.org/cidoc-crm/page/eSc_dummypage_/r_1_1/tl_1/2282234>
+        a                               crm:E33_Linguistic_Object ;
+        crm:P190_has_symbolic_contents  "LETTRES DV SIEVR" .
+
+<https://segmonto.unige.ch/example/page/eSc_dummypage_/r_1_1/tl_18>
+        a                               crm:E25_Human-Made_Feature , scr:line ;
+        crm:P128_carries                <http://www.cidoc-crm.org/cidoc-crm/page/eSc_dummypage_/r_1_1/tl_18/2689282> ;
+        crm:P190_has_symbolic_contents  "que cette derniere action a" ;
+        crm:P2_has_type                 cod:term-1735 .
+
+<https://segmonto.unige.ch/example/page/eSc_dummypage_/eSc_textblock_e2c96976>
+        a                               crm:E25_Human-Made_Feature , scr:zone ;
+        crm:P190_has_symbolic_contents  "LETTRES DV SIEVR" .
+
+cod:term-1735  a  crm:E55_Type .
+
+<https://segmonto.unige.ch/example/page/eSc_dummypage_/r_1_1/tl_12>
+        a                               crm:E25_Human-Made_Feature , scr:line ;
+        crm:P128_carries                <http://www.cidoc-crm.org/cidoc-crm/page/eSc_dummypage_/r_1_1/tl_12/2705286> ;
+        crm:P190_has_symbolic_contents  "occaſion de telle importan¬" ;
+        crm:P2_has_type                 cod:term-1735 .
+
+<http://www.cidoc-crm.org/cidoc-crm/page/eSc_dummypage_/r_1_1/tl_4/2701315>
+        a                               crm:E33_Linguistic_Object ;
+        crm:P190_has_symbolic_contents  "ſçeu l'heureux ſuccés du" .
+
+<https://segmonto.unige.ch/example/page/eSc_dummypage_/r_1_1/tl_6>
+        a                               crm:E25_Human-Made_Feature , scr:line ;
+        crm:P128_carries                <http://www.cidoc-crm.org/cidoc-crm/page/eSc_dummypage_/r_1_1/tl_6/2709290> ;
+        crm:P190_has_symbolic_contents  "en Bearn, & les grands com¬" ;
+        crm:P2_has_type                 cod:term-1735 .
+
+<http://www.cidoc-crm.org/cidoc-crm/page/eSc_dummypage_/r_1_1/tl_16/2689226>
+        a                               crm:E33_Linguistic_Object ;
+        crm:P190_has_symbolic_contents  "deffaux en la conduite de" .
+
+<http://www.cidoc-crm.org/cidoc-crm/page/eSc_dummypage_/r_1_1/tl_13/2686302>
+        a                               crm:E33_Linguistic_Object ;
+        crm:P190_has_symbolic_contents  "ce a eſté ſi generalement ap¬" .
+
+<http://www.cidoc-crm.org/cidoc-crm/page/eSc_dummypage_/r_1_1/eSc_line_716cb609/154165>
+        a                               crm:E33_Linguistic_Object ;
+        crm:P190_has_symbolic_contents  "2" .
+
+<http://www.cidoc-crm.org/cidoc-crm/page/eSc_dummypage_/r_1_1/tl_14/2705290>
+        a                               crm:E33_Linguistic_Object ;
+        crm:P190_has_symbolic_contents  "prouué, que ſi on remar¬" .
+
+<https://segmonto.unige.ch/example/page/eSc_dummypage_/r_1_1/tl_17>
+        a                               crm:E25_Human-Made_Feature , scr:line ;
+        crm:P128_carries                <http://www.cidoc-crm.org/cidoc-crm/page/eSc_dummypage_/r_1_1/tl_17/2686262> ;
+        crm:P190_has_symbolic_contents  "nos affaires, il faut auoüer" ;
+        crm:P2_has_type                 cod:term-1735 .
+
+<http://www.cidoc-crm.org/cidoc-crm/page/eSc_dummypage_/r_1_1/tl_10/2701290>
+        a                               crm:E33_Linguistic_Object ;
+        crm:P190_has_symbolic_contents  "certes le choix qu'il a fait de" .
+
+<https://segmonto.unige.ch/example/page/eSc_dummypage_/r_1_1/tl_11>
+        a                               crm:E25_Human-Made_Feature , scr:line ;
+        crm:P128_carries                <http://www.cidoc-crm.org/cidoc-crm/page/eSc_dummypage_/r_1_1/tl_11/2698286> ;
+        crm:P190_has_symbolic_contents  "vous pour le ſeruir en vne" ;
+        crm:P2_has_type                 cod:term-1735 .
+
+<http://www.cidoc-crm.org/cidoc-crm/page/eSc_dummypage_/r_1_1/tl_12/2705286>
+        a                               crm:E33_Linguistic_Object ;
+        crm:P190_has_symbolic_contents  "occaſion de telle importan¬" .
+
+<https://segmonto.unige.ch/example/page/eSc_dummypage_/r_1_1/tl_5>
+        a                               crm:E25_Human-Made_Feature , scr:line ;
+        crm:P128_carries                <http://www.cidoc-crm.org/cidoc-crm/page/eSc_dummypage_/r_1_1/tl_5/2714287> ;
+        crm:P190_has_symbolic_contents  "voyage que vous auez fait" ;
+        crm:P2_has_type                 cod:term-1735 .
+
+<http://www.cidoc-crm.org/cidoc-crm/page/eSc_dummypage_/r_1_1/tl_9/2698278>
+        a                               crm:E33_Linguistic_Object ;
+        crm:P190_has_symbolic_contents  "voudra entreprendre: Et" .

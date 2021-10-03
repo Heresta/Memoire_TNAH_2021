@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<generator_policy>
+    
+    <!-- Generator for creating simple labels -->
+    <generator name="SimpleLabelGen">
+        <pattern>{label}</pattern>
+    </generator>
+
+    <generator name="pageNumber" prefix="vc">
+    <pattern>{type}/{page}/{number}</pattern>
+    </generator>
+
+    <generator name="URLwithAAT" prefix="aat">
+    <pattern>{id}</pattern>
+    </generator>
+
+    <generator name="URLwithSCR" prefix="scr">
+    <pattern>vocab/{id}</pattern>
+    </generator>
+
+    <generator name="URLwithCOD" prefix="cod">
+    <pattern>{id}</pattern>
+    </generator>
+
+    <generator name="page" prefix="vc">
+    <pattern>{type}/{page}</pattern>
+    </generator>
+
+    <generator name="zone" prefix="scr">
+    <pattern>{type}/{page}/{zone}</pattern>
+    </generator>
+
+    <generator name="line" prefix="scr">
+    <pattern>{type}/{page}/{zone}/{line}</pattern>
+    </generator>
+
+    <generator name="identifier" prefix="vc">
+	<pattern>{type}/{page}/identifier</pattern>
+	</generator>
+
+    <generator name="linguistic" prefix="crm">
+    <pattern>{type}/{page}/{zone}/{line}/{string}{string2}</pattern>
+    </generator>
+
+    <generator name="clabel">
+    <pattern>{label1}{label2}</pattern>
+    </generator>
+	
+    
+    <!-- Generator for creating simple labels that contains also a narrative describing its purpose -->
+    <generator name="SimpleLabelGenWithDescr">
+        <pattern>{label}</pattern>
+        <description>This is a simple label generator</description>
+    </generator>
+    
+    <!-- Generator for creating simple labels that contains also a type describing its intended use -->
+    <generator name="SimpleLabelGenWithType" type="label">
+        <pattern>{label}</pattern>
+    </generator>
+    
+    <!-- Generator for creating URIs using a pattern with the prefix ex, defined in X3ML mappings file 
+        (e.g. https://example.com/resource/1234) -->
+    <generator name="SimpleUriGen" prefix="ex">
+        <pattern>{hierarchy}/{term}</pattern>
+    </generator>
+    
+    <!-- Generator for creating URIs using a pattern with the prefix ex, defined in X3ML mappings file
+        and ending with a random uuid  (e.g. https://example.com/resource/person/f2e79116-b27f-4d07-98aa-c075a0f3593a) -->
+    <generator name="SimpleUriGenWithUUID" prefix="ex" uuid="yes">
+        <pattern>{hierarchy}/{term}/</pattern>
+    </generator>
+    
+    <!-- Generator for creating URIs using a pattern with the prefix ex, defined in X3ML mappings file
+        and ending with a hashed suffix on the term element (e.g. https://example.com/resource/f2e79116-b27f-4d07-98aa-c075a0f3593a) -->
+    <generator name="SimpleUriGenWithHashedContents" prefix="ex" shorten="yes">
+        <pattern>{hierarchy}/{term}</pattern>
+    </generator>
+    
+    <!-- Generator for creating URIs using a pattern with the prefix ex, defined in X3ML mappings file
+        and ending with a hashed suffix on the term element and a type describing its inteded use
+        (e.g. https://example.com/resource/f2e79116-b27f-4d07-98aa-c075a0f3593a) -->
+    <generator name="SimpleUriGenWithHashedContentsAndType" prefix="ex" shorten="yes" type="instance">
+        <pattern>{hierarchy}/{term}</pattern>
+    </generator>
+    
+    <!-- Generator for creating URIs using a custom generator and its corresponding generator class
+        (e.g. https://dbpedia.org/resource/Tim_Berners-Lee) -->
+    <generator name="CustomUriGen">
+        <custom generatorClass="gr.forth.URIorUUID">
+            <set-arg name="text"/>
+        </custom>
+    </generator>
+    
+    <!-- Generator for creating URIs using a custom generator and its corresponding generator class and a specification 
+        for the types of its arguments
+        (e.g. https://dbpedia.org/resource/Tim_Berners-Lee) -->
+    <generator name="CustomUriGenWithTypedArg">
+        <custom generatorClass="gr.forth.URIorUUID">
+            <set-arg name="text" type="xpath"/>
+        </custom>
+    </generator>
+
+
+    <generator name="TypedLiteralGen">
+    <custom generatorClass="gr.forth.TypedLiteralGenerator">
+        <set-arg name="text"/>
+    </custom>
+</generator>
+
+<generator name="URIorUUID">
+    <custom generatorClass="gr.forth.URIorUUID">
+        <set-arg name="text"></set-arg>
+    </custom>
+</generator>
+
+<generator name="simple-uri-gen" uri="vc" shorten="yes">
+        <pattern>{category}/{id}</pattern>
+</generator>
+
+<generator name="MultiHashingGenerator" prefix="pref">
+    <custom generatorClass="gr.forth.MultiHashingGenerator">
+        <set-arg name="term"/>
+        <set-arg name="term_HASHED_CONTENTS"/>
+        <set-arg name="term_other"/>
+        <set-arg name="term_RANDOM_UUID"/>
+    </custom>
+</generator>
+
+<generator name="ConcatMultipleTerms">
+   <custom generatorClass="gr.forth.ConcatMultipleTerms">
+      <set-arg name="prefix" type="constant"/>
+      <set-arg name="delimiter" type="constant"/>
+      <set-arg name="text1"/>
+      <set-arg name="text2"/>
+   </custom>
+</generator>
+
+
+
+</generator_policy>

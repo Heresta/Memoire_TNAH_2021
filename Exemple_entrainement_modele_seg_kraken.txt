@@ -1,0 +1,94 @@
+(kraken) jbcamps@srv-rech01:~/kraken\$ ketos segtrain -o simon -d cuda -f alto -q early -bl /data/layout/datasetsOCRSegmenter17/trainingDataSeg17/*.xml
+Creating model [1,1200,0,3 Cr7,7,64,2,2 Gn32 Cr3,3,128,2,2 Gn32 Cr3,3,128 Gn32 Cr3,3,256 Gn32 Cr3,3,256 Gn32 Lbx32 Lby32 Cr1,1,32 Gn32 Lby32 Lbx32 O2l18] with 18 outputs ✓
+Training line types:
+Default 2 11030
+default 3 189
+DropCapitalLine 4 221
+Rubric 5 74
+Training region types:
+DropCapital 6 116
+Main 7 468
+Stamp 8 16
+Figure 9 2
+text 10 8
+Title 11 25
+Signatures 12 127
+Decoration 13 132
+RunningTitle 14 374
+Numbering 15 373
+Margin 16 22
+Damage 17 85
+stage 1/∞ [####################################] 449/449 Accuracy report (1) mean_iu: 0.1402 freq_iu: 0.3813 mean_acc: 0.9627 accuracy: 0.9627
+stage 2/∞ [####################################] 449/449 Accuracy report (2) mean_iu: 0.1896 freq_iu: 0.6947 mean_acc: 0.9861 accuracy: 0.9861
+stage 3/∞ [####################################] 449/449 Accuracy report (3) mean_iu: 0.2039 freq_iu: 0.7050 mean_acc: 0.9863 accuracy: 0.9863
+stage 4/∞ [####################################] 449/449 Accuracy report (4) mean_iu: 0.2665 freq_iu: 0.7478 mean_acc: 0.9880 accuracy: 0.9880
+stage 5/∞ [####################################] 449/449 Accuracy report (5) mean_iu: 0.3090 freq_iu: 0.7766 mean_acc: 0.9891 accuracy: 0.9891
+stage 6/∞ [####################################] 449/449 Accuracy report (6) mean_iu: 0.3147 freq_iu: 0.8007 mean_acc: 0.9900 accuracy: 0.9900
+stage 7/∞ [####################################] 449/449 Accuracy report (7) mean_iu: 0.2122 freq_iu: 0.7930 mean_acc: 0.9894 accuracy: 0.9894
+stage 8/∞ [####################################] 449/449 Accuracy report (8) mean_iu: 0.3290 freq_iu: 0.7987 mean_acc: 0.9900 accuracy: 0.9900
+stage 9/∞ [####################################] 449/449 Accuracy report (9) mean_iu: 0.3281 freq_iu: 0.7979 mean_acc: 0.9897 accuracy: 0.9897
+stage 10/∞ [####################################] 449/449 Accuracy report (10) mean_iu: 0.3553 freq_iu: 0.8161 mean_acc: 0.9908 accuracy: 0.9908
+stage 11/∞ [####################################] 449/449 Accuracy report (11) mean_iu: 0.3766 freq_iu: 0.8195 mean_acc: 0.9910 accuracy: 0.9910
+stage 12/∞ [####################################] 449/449 Accuracy report (12) mean_iu: 0.3813 freq_iu: 0.8188 mean_acc: 0.9909 accuracy: 0.9909
+stage 13/∞ [####################################] 449/449 Accuracy report (13) mean_iu: 0.3623 freq_iu: 0.8248 mean_acc: 0.9911 accuracy: 0.9911
+stage 14/∞ [####################################] 449/449 Accuracy report (14) mean_iu: 0.3870 freq_iu: 0.8144 mean_acc: 0.9907 accuracy: 0.9907
+stage 15/∞ [####################################] 449/449 Accuracy report (15) mean_iu: 0.4091 freq_iu: 0.8227 mean_acc: 0.9912 accuracy: 0.9912
+stage 16/∞ [####################################] 449/449 Accuracy report (16) mean_iu: 0.3854 freq_iu: 0.8095 mean_acc: 0.9904 accuracy: 0.9904
+stage 17/∞ [####################################] 449/449 Accuracy report (17) mean_iu: 0.4174 freq_iu: 0.8236 mean_acc: 0.9910 accuracy: 0.9910
+stage 18/∞ [####################################] 449/449 Accuracy report (18) mean_iu: 0.2951 freq_iu: 0.8116 mean_acc: 0.9893 accuracy: 0.9893
+stage 19/∞ [####################################] 449/449 Accuracy report (19) mean_iu: 0.4375 freq_iu: 0.8308 mean_acc: 0.9915 accuracy: 0.9915
+stage 20/∞ [####################################] 449/449 Accuracy report (20) mean_iu: 0.4577 freq_iu: 0.8431 mean_acc: 0.9920 accuracy: 0.9920
+stage 21/∞ [####################################] 449/449 Accuracy report (21) mean_iu: 0.4796 freq_iu: 0.8527 mean_acc: 0.9924 accuracy: 0.9924
+stage 22/∞ [####################################] 449/449 Accuracy report (22) mean_iu: 0.4419 freq_iu: 0.8322 mean_acc: 0.9916 accuracy: 0.9916
+stage 23/∞ [####################################] 449/449 Accuracy report (23) mean_iu: 0.4844 freq_iu: 0.8566 mean_acc: 0.9925 accuracy: 0.9925
+stage 24/∞ [####################################] 449/449 Accuracy report (24) mean_iu: 0.5061 freq_iu: 0.8658 mean_acc: 0.9931 accuracy: 0.9931
+stage 25/∞ [####################################] 449/449 Accuracy report (25) mean_iu: 0.4634 freq_iu: 0.8360 mean_acc: 0.9918 accuracy: 0.9918
+stage 26/∞ [####################################] 449/449 Accuracy report (26) mean_iu: 0.4970 freq_iu: 0.8559 mean_acc: 0.9927 accuracy: 0.9927
+stage 27/∞ [####################################] 449/449 Accuracy report (27) mean_iu: 0.5083 freq_iu: 0.8636 mean_acc: 0.9930 accuracy: 0.9930
+stage 28/∞ [####################################] 449/449 Accuracy report (28) mean_iu: 0.5087 freq_iu: 0.8637 mean_acc: 0.9929 accuracy: 0.9929
+stage 29/∞ [####################################] 449/449 Accuracy report (29) mean_iu: 0.5070 freq_iu: 0.8645 mean_acc: 0.9930 accuracy: 0.9930
+stage 30/∞ [####################################] 449/449 Accuracy report (30) mean_iu: 0.4316 freq_iu: 0.7812 mean_acc: 0.9883 accuracy: 0.9883
+stage 31/∞ [####################################] 449/449 Accuracy report (31) mean_iu: 0.5193 freq_iu: 0.8601 mean_acc: 0.9928 accuracy: 0.9928
+stage 32/∞ [####################################] 449/449 Accuracy report (32) mean_iu: 0.5273 freq_iu: 0.8638 mean_acc: 0.9931 accuracy: 0.9931
+stage 33/∞ [####################################] 449/449 Accuracy report (33) mean_iu: 0.5308 freq_iu: 0.8697 mean_acc: 0.9933 accuracy: 0.9933
+stage 34/∞ [####################################] 449/449 Accuracy report (34) mean_iu: 0.4609 freq_iu: 0.8474 mean_acc: 0.9923 accuracy: 0.9923
+stage 35/∞ [####################################] 449/449 Accuracy report (35) mean_iu: 0.5334 freq_iu: 0.8686 mean_acc: 0.9933 accuracy: 0.9933
+stage 36/∞ [####################################] 449/449 Accuracy report (36) mean_iu: 0.5412 freq_iu: 0.8729 mean_acc: 0.9935 accuracy: 0.9935
+stage 37/∞ [####################################] 449/449 Accuracy report (37) mean_iu: 0.5429 freq_iu: 0.8756 mean_acc: 0.9937 accuracy: 0.9937
+stage 38/∞ [####################################] 449/449 Accuracy report (38) mean_iu: 0.4409 freq_iu: 0.8181 mean_acc: 0.9898 accuracy: 0.9898
+stage 39/∞ [####################################] 449/449 Accuracy report (39) mean_iu: 0.4243 freq_iu: 0.8686 mean_acc: 0.9933 accuracy: 0.9933
+stage 40/∞ [####################################] 449/449 Accuracy report (40) mean_iu: 0.5372 freq_iu: 0.8645 mean_acc: 0.9930 accuracy: 0.9930
+stage 41/∞ [####################################] 449/449 Accuracy report (41) mean_iu: 0.5081 freq_iu: 0.8745 mean_acc: 0.9935 accuracy: 0.9935
+stage 42/∞ [####################################] 449/449 Accuracy report (42) mean_iu: 0.5552 freq_iu: 0.8758 mean_acc: 0.9936 accuracy: 0.9936
+stage 43/∞ [####################################] 449/449 Accuracy report (43) mean_iu: 0.5597 freq_iu: 0.8733 mean_acc: 0.9936 accuracy: 0.9936
+stage 44/∞ [####################################] 449/449 Accuracy report (44) mean_iu: 0.5386 freq_iu: 0.8552 mean_acc: 0.9927 accuracy: 0.9927
+stage 45/∞ [####################################] 449/449 Accuracy report (45) mean_iu: 0.5698 freq_iu: 0.8755 mean_acc: 0.9937 accuracy: 0.9937
+stage 46/∞ [####################################] 449/449 Accuracy report (46) mean_iu: 0.5700 freq_iu: 0.8797 mean_acc: 0.9938 accuracy: 0.9938
+stage 47/∞ [####################################] 449/449 Accuracy report (47) mean_iu: 0.5625 freq_iu: 0.8731 mean_acc: 0.9935 accuracy: 0.9935
+stage 48/∞ [####################################] 449/449 Accuracy report (48) mean_iu: 0.4773 freq_iu: 0.8413 mean_acc: 0.9921 accuracy: 0.9921
+stage 49/∞ [####################################] 449/449 Accuracy report (49) mean_iu: 0.5507 freq_iu: 0.8709 mean_acc: 0.9932 accuracy: 0.9932
+stage 50/∞ [####################################] 449/449 Accuracy report (50) mean_iu: 0.5632 freq_iu: 0.8697 mean_acc: 0.9933 accuracy: 0.9933
+stage 51/∞ [####################################] 449/449 Accuracy report (51) mean_iu: 0.5675 freq_iu: 0.8677 mean_acc: 0.9934 accuracy: 0.9934
+stage 52/∞ [####################################] 449/449 Accuracy report (52) mean_iu: 0.5800 freq_iu: 0.8718 mean_acc: 0.9935 accuracy: 0.9935
+stage 53/∞ [####################################] 449/449 Accuracy report (53) mean_iu: 0.5570 freq_iu: 0.8728 mean_acc: 0.9935 accuracy: 0.9935
+stage 54/∞ [####################################] 449/449 Accuracy report (54) mean_iu: 0.5679 freq_iu: 0.8728 mean_acc: 0.9936 accuracy: 0.9936
+stage 55/∞ [####################################] 449/449 Accuracy report (55) mean_iu: 0.5855 freq_iu: 0.8808 mean_acc: 0.9940 accuracy: 0.9940
+stage 56/∞ [####################################] 449/449 Accuracy report (56) mean_iu: 0.5912 freq_iu: 0.8785 mean_acc: 0.9938 accuracy: 0.9938
+stage 57/∞ [####################################] 449/449 Accuracy report (57) mean_iu: 0.5889 freq_iu: 0.8763 mean_acc: 0.9938 accuracy: 0.9938
+stage 58/∞ [####################################] 449/449 Accuracy report (58) mean_iu: 0.5686 freq_iu: 0.8750 mean_acc: 0.9934 accuracy: 0.9934
+stage 59/∞ [####################################] 449/449 Accuracy report (59) mean_iu: 0.5370 freq_iu: 0.8523 mean_acc: 0.9918 accuracy: 0.9918
+stage 60/∞ [####################################] 449/449 Accuracy report (60) mean_iu: 0.5696 freq_iu: 0.8600 mean_acc: 0.9929 accuracy: 0.9929
+stage 61/∞ [####################################] 449/449 Accuracy report (61) mean_iu: 0.5999 freq_iu: 0.8787 mean_acc: 0.9937 accuracy: 0.9937
+stage 62/∞ [####################################] 449/449 Accuracy report (62) mean_iu: 0.6039 freq_iu: 0.8737 mean_acc: 0.9937 accuracy: 0.9937
+stage 63/∞ [####################################] 449/449 Accuracy report (63) mean_iu: 0.6061 freq_iu: 0.8766 mean_acc: 0.9937 accuracy: 0.9937
+stage 64/∞ [####################################] 449/449 Accuracy report (64) mean_iu: 0.5930 freq_iu: 0.8688 mean_acc: 0.9933 accuracy: 0.9933
+stage 65/∞ [####################################] 449/449 Accuracy report (65) mean_iu: 0.5944 freq_iu: 0.8735 mean_acc: 0.9934 accuracy: 0.9934
+stage 66/∞ [####################################] 449/449 Accuracy report (66) mean_iu: 0.5808 freq_iu: 0.8682 mean_acc: 0.9931 accuracy: 0.9931
+stage 67/∞ [####################################] 449/449 Accuracy report (67) mean_iu: 0.5855 freq_iu: 0.8780 mean_acc: 0.9938 accuracy: 0.9938
+stage 68/∞ [####################################] 449/449 Accuracy report (68) mean_iu: 0.5940 freq_iu: 0.8754 mean_acc: 0.9936 accuracy: 0.9936
+stage 69/∞ [####################################] 449/449 Accuracy report (69) mean_iu: 0.6132 freq_iu: 0.8755 mean_acc: 0.9936 accuracy: 0.9936
+stage 70/∞ [####################################] 449/449 Accuracy report (70) mean_iu: 0.5901 freq_iu: 0.8748 mean_acc: 0.9936 accuracy: 0.9936
+stage 71/∞ [####################################] 449/449 Accuracy report (71) mean_iu: 0.6105 freq_iu: 0.8752 mean_acc: 0.9936 accuracy: 0.9936
+stage 72/∞ [####################################] 449/449 Accuracy report (72) mean_iu: 0.5957 freq_iu: 0.8796 mean_acc: 0.9936 accuracy: 0.9936
+
+Moving best model simon_62.mlmodel (0.603932063797029) to simon_best.mlmodel
